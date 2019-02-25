@@ -1,19 +1,23 @@
 {
   "name": "nodtem66/elasticquent",
   "type": "library",
-  "description": "Maps Laravel Eloquent models to Elasticsearch types.",
+  "description": "Maps Laravel Eloquent models to Elasticsearch types with cviebrock/laravel-elasticsearch",
   "keywords": [
     "elasticsearch",
     "eloquent",
     "laravel"
   ],
-  "homepage": "https://github.com/elasticquent/Elasticquent",
+  "homepage": "https://github.com/nodtem66/Elasticquent",
   "license": "MIT",
   "authors": [
     {
       "name": "Adam Fairholm",
       "email": "adam.fairholm@gmail.com",
       "homepage": "http://adamfairholm.com"
+    },
+    {
+      "name": "Jirawat I.",
+      "email": "nodtem66@gmail.com"
     }
   ],
   "require": {
@@ -33,9 +37,6 @@
     }
   },
   "extra": {
-    "branch-alias": {
-      "dev-master": "1.0-dev"
-    }
   },
   "minimum-stability": "stable",
   "prefer-stable": true,

@@ -1,7 +1,7 @@
 # nodtem66/Elasticquent
 
-forked from original: [elasticquent/elasticquent](https://github.com/elasticquent/Elasticquent)
-add new driver supported AWS: [cviebrock/laravel-elasticsearch](https://github.com/cviebrock/laravel-elasticsearch)
+Forked from original: [elasticquent/elasticquent](https://github.com/elasticquent/Elasticquent)
+with [cviebrock/laravel-elasticsearch](https://github.com/cviebrock/laravel-elasticsearch) to support the AWS
 
 * [API Document](#api-document)
 * [Overview](#overview)
@@ -15,7 +15,6 @@ You must be running _at least_ Elasticsearch 6.0. Otherwies, you have to custom 
 
 For Eloquent model:
 [elasticquent/elasticquent](https://github.com/elasticquent/Elasticquent)
-
 For Elasticsearch client:
 [cviebrock/laravel-elasticsearch](https://github.com/cviebrock/laravel-elasticsearch)
 
