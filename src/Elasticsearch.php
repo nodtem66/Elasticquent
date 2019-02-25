@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @see \Elasticquent\ElasticquentServiceProvider
  */
-class ElasticquentElasticsearchFacade extends Facade
+class Elasticsearch extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class ElasticquentElasticsearchFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'elasticquent.elasticsearch';
+        return 'elasticsearch';
     }
 }

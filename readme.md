@@ -1,10 +1,6 @@
-# Elasticquent
-
-_Elasticsearch for Eloquent Laravel Models_
-
-Elasticquent makes working with [Elasticsearch](http://www.elasticsearch.org/) and [Eloquent](http://laravel.com/docs/eloquent) models easier by mapping them to Elasticsearch types. You can use the default settings or define how Elasticsearch should index and search your Eloquent models right in the model.
-
-Elasticquent uses the [official Elasticsearch PHP API](https://github.com/elasticsearch/elasticsearch-php). To get started, you should have a basic knowledge of how Elasticsearch works (indexes, types, mappings, etc).
+# nodtem66/Elasticquent
+forked from original: [elasticquent/elasticquent](https://github.com/elasticquent/Elasticquent)
+add new driver supported AWS: [cviebrock/laravel-elasticsearch](https://github.com/cviebrock/laravel-elasticsearch)
 
 # Elasticsearch Requirements
 

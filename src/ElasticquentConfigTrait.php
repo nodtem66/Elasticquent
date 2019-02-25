@@ -69,10 +69,10 @@ trait ElasticquentConfigTrait
      * Get the config path and file name to use when Laravel framework isn't present
      * e.g. using Eloquent stand-alone or running unit tests
      *
-     * @return string config file path 
+     * @return string config file path
      */
     protected function getConfigFile()
     {
-        return __DIR__ . '/config/elasticquent.php';
+        return __DIR__ . '/config/elasticsearch.php';
     }
 }
