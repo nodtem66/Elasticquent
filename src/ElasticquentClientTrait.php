@@ -14,6 +14,6 @@ trait ElasticquentClientTrait
      */
     public function getElasticSearchClient()
     {
-        return Facade;
+        return resolve('elasticsearch');
     }
 }
